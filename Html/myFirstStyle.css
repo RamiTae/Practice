@@ -1,0 +1,23 @@
+html {
+    /* color: wheat; */
+    color: internal-root-color;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+
+textarea {
+    width: 300px;
+    background-color: rgb(223, 216, 195);
+}
+
+h1 {
+    color: blue;
+    font-style: italic;
+  }
+
+#red { color: red; }
+.greenyellow { color: greenyellow; }
+.underling { text-decoration: underline; }
