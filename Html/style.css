@@ -1,0 +1,31 @@
+#new-comment {
+    background-color: lightyellow;
+    border: 1px solid #ccc;
+}
+
+.comment {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 10px;
+    margin: 10px;
+}
+
+button.up,
+button.down {
+    width: 80px;
+}
+
+button.up img,
+button.down img {
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+body {
+    background-color: #f0f0f0;
+}
