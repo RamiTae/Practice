@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <style>
+        button {
+            width: 100px;
+            background-color: yellow;
+        }
+    </style> -->
 </head>
 <body>
     <div id="new-comment">
         <div>댓글 9</div>
-        <input type="text" placeholder="댓글을 입력해주세요">
-        <button>등록</button>
+        <input id="input-comment" type="text" placeholder="댓글을 입력해주세요">
+        <button id="register">등록</button>
     </div>
     
     <ul id="comments">
@@ -30,7 +36,7 @@
         </li>
         <li class="comment">
             <div class="username">john</div>
-            <div class="contents">시각장애인 최고!</div>
+            <div class="contents">좋은 소식이네요</div>
             <span class="timestamp">2018-02-12 23:22:00</span>
             <button class="up">
                 <img src="thumbup.png">
@@ -42,5 +48,13 @@
             </button>
         </li>
     </ul>
+
+    <span id="tmp">
+        예제
+    </span>
+
+    <div id="footer">
+        개인정보 처리방침
+    </div>
 </body>
 </html>

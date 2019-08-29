@@ -1,14 +1,38 @@
+/* button {
+    background-color: yellow;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
 #new-comment {
-    background-color: lightyellow;
+    /* 테두리 */
     border: 1px solid #ccc;
+    /* 안쪽 여백 */
+    padding: 20px;
+    background-color: lightyellow;
+}
+
+#input-comment {
+    font-size: 16px;
+    padding: 5px;
+    width: 80%;
+}
+
+#comments {
+    border: 1px solid cyan;
+    background-color: lightblue;
 }
 
 .comment {
+    /* .없애기 */
+    list-style: none;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     padding: 10px;
-    margin: 10px;
+    margin: 0px 10px 20px 30px;
 }
 
 button.up,
@@ -28,4 +52,14 @@ button.down img {
 
 body {
     background-color: #f0f0f0;
+}
+
+#tmp {
+    background-color: gray;
+}
+
+#footer {
+    background-color: silver;
+    position: absolute;
+    bottom: 0;
 }
