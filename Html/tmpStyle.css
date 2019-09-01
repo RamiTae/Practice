@@ -1,0 +1,10 @@
+div.highlight {
+    background-color: #5ee;
+  }
+
+span.highlight {
+    background-color: #ee3;
+  }
+
+#hello { color: red; text-decoration: underline; }
+#world { color: blue; }
