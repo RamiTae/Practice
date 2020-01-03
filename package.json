@@ -1,0 +1,11 @@
+{
+  "name": "Practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RamiTae/Practice.git",
+  "scripts": {
+    "hash": "node index.js"
+  },
+  "author": "RamiTae <ramiTae.dev@gmail.com>",
+  "license": "MIT"
+}
